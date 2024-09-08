@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.5 on win32)" generated="2024-09-08T01:45:57.836676" rpa="false" schemaversion="5">
+<suite id="s1" name="TC 01" source="C:\Users\howah\Documents\pycharm\TestProject\TC_01.robot">
+<test id="s1-t1" name="Robot First Test Case" line="14">
+<kw name="Create List" owner="BuiltIn">
+<msg time="2024-09-08T01:45:58.202914" level="INFO">@{List1} = [ Hello 22,23,24 123456 ]</msg>
+<var>@{List1}</var>
+<arg>Hello 22,23,24 123456</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2024-09-08T01:45:58.201913" elapsed="0.001001"/>
+</kw>
+<kw name=":FOR">
+<msg time="2024-09-08T01:45:58.203474" level="FAIL">Support for the old FOR loop syntax has been removed. Replace ':FOR' with 'FOR', end the loop with 'END', and remove escaping backslashes.</msg>
+<arg>${i}</arg>
+<arg>IN</arg>
+<arg>@(List1)</arg>
+<status status="FAIL" start="2024-09-08T01:45:58.203474" elapsed="0.000000">Support for the old FOR loop syntax has been removed. Replace ':FOR' with 'FOR', end the loop with 'END', and remove escaping backslashes.</status>
+</kw>
+<kw name="\">
+<arg>log to console</arg>
+<arg>${i}</arg>
+<status status="NOT RUN" start="2024-09-08T01:45:58.204476" elapsed="0.000000"/>
+</kw>
+<tag>ALL_TC</tag>
+<status status="FAIL" start="2024-09-08T01:45:58.199915" elapsed="0.004561">Support for the old FOR loop syntax has been removed. Replace ':FOR' with 'FOR', end the loop with 'END', and remove escaping backslashes.</status>
+</test>
+<doc>This automation having test by me</doc>
+<status status="FAIL" start="2024-09-08T01:45:57.838675" elapsed="0.367099"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">ALL_TC</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="TC 01">TC 01</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.5 on win32)" generated="2024-09-08T02:21:38.518188" rpa="false" schemaversion="5">
+<suite id="s1" name="TC 01" source="C:\Users\howah\Documents\pycharm\TestProject\TC_01.robot">
+<test id="s1-t1" name="Robot First Test Case" line="15">
+<for flavor="IN RANGE">
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${i}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-08T02:21:38.887036" elapsed="0.001004"/>
+</kw>
+<var name="${i}">1</var>
+<status status="PASS" start="2024-09-08T02:21:38.887036" elapsed="0.001004"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${i}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-08T02:21:38.888040" elapsed="0.000919"/>
+</kw>
+<var name="${i}">2</var>
+<status status="PASS" start="2024-09-08T02:21:38.888040" elapsed="0.000919"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${i}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-08T02:21:38.888959" elapsed="0.000731"/>
+</kw>
+<var name="${i}">3</var>
+<status status="PASS" start="2024-09-08T02:21:38.888959" elapsed="0.000731"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${i}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-08T02:21:38.889690" elapsed="0.000748"/>
+</kw>
+<var name="${i}">4</var>
+<status status="PASS" start="2024-09-08T02:21:38.889690" elapsed="0.000748"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${i}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-08T02:21:38.890438" elapsed="0.000759"/>
+</kw>
+<var name="${i}">5</var>
+<status status="PASS" start="2024-09-08T02:21:38.890438" elapsed="0.000759"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${i}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-08T02:21:38.891197" elapsed="0.000819"/>
+</kw>
+<var name="${i}">6</var>
+<status status="PASS" start="2024-09-08T02:21:38.891197" elapsed="0.000819"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${i}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-08T02:21:38.892016" elapsed="0.000874"/>
+</kw>
+<var name="${i}">7</var>
+<status status="PASS" start="2024-09-08T02:21:38.892016" elapsed="0.000874"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${i}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-08T02:21:38.892890" elapsed="0.001022"/>
+</kw>
+<var name="${i}">8</var>
+<status status="PASS" start="2024-09-08T02:21:38.892890" elapsed="0.001022"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${i}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-08T02:21:38.893912" elapsed="0.000000"/>
+</kw>
+<var name="${i}">9</var>
+<status status="PASS" start="2024-09-08T02:21:38.893912" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${i}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-08T02:21:38.894895" elapsed="0.001000"/>
+</kw>
+<var name="${i}">10</var>
+<status status="PASS" start="2024-09-08T02:21:38.894895" elapsed="0.001000"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${i}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-08T02:21:38.895895" elapsed="0.000000"/>
+</kw>
+<var name="${i}">11</var>
+<status status="PASS" start="2024-09-08T02:21:38.895895" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${i}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-08T02:21:38.896893" elapsed="0.000408"/>
+</kw>
+<var name="${i}">12</var>
+<status status="PASS" start="2024-09-08T02:21:38.896893" elapsed="0.000408"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${i}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-08T02:21:38.897301" elapsed="0.000644"/>
+</kw>
+<var name="${i}">13</var>
+<status status="PASS" start="2024-09-08T02:21:38.897301" elapsed="0.000644"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${i}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-08T02:21:38.897945" elapsed="0.000841"/>
+</kw>
+<var name="${i}">14</var>
+<status status="PASS" start="2024-09-08T02:21:38.897945" elapsed="0.000841"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${i}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-08T02:21:38.898786" elapsed="0.000748"/>
+</kw>
+<var name="${i}">15</var>
+<status status="PASS" start="2024-09-08T02:21:38.898786" elapsed="0.000748"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${i}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-08T02:21:38.899534" elapsed="0.001074"/>
+</kw>
+<var name="${i}">16</var>
+<status status="PASS" start="2024-09-08T02:21:38.899534" elapsed="0.001074"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${i}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-08T02:21:38.900608" elapsed="0.001004"/>
+</kw>
+<var name="${i}">17</var>
+<status status="PASS" start="2024-09-08T02:21:38.900608" elapsed="0.001004"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${i}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-08T02:21:38.901612" elapsed="0.000000"/>
+</kw>
+<var name="${i}">18</var>
+<status status="PASS" start="2024-09-08T02:21:38.901612" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${i}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-08T02:21:38.902614" elapsed="0.000000"/>
+</kw>
+<var name="${i}">19</var>
+<status status="PASS" start="2024-09-08T02:21:38.902614" elapsed="0.000000"/>
+</iter>
+<var>${i}</var>
+<value>1</value>
+<value>20</value>
+<status status="PASS" start="2024-09-08T02:21:38.886023" elapsed="0.016591"/>
+</for>
+<status status="PASS" start="2024-09-08T02:21:38.886023" elapsed="0.017872"/>
+</test>
+<status status="PASS" start="2024-09-08T02:21:38.521189" elapsed="0.383745"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="TC 01">TC 01</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
